@@ -41,6 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Architecture.DAL\Architecture.DAL.csproj">
+      <Project>{01C243DE-9301-454A-BD2E-041B81DB9117}</Project>
+      <Name>Architecture.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Architecture.DTO\Architecture.DTO.csproj">
+      <Project>{4E67C2FC-DAB5-4235-A816-49FC35171149}</Project>
+      <Name>Architecture.DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
